@@ -1,0 +1,46 @@
+<MainFile>
+	<LifeBar color_r="39" color_g="174" color_b="96" rect_offset_x="60" rect_offset_y="10" rect_width="352" rect_height="40"/>
+	<Attributes velocity="6" animation_velocity="4" hp="5" initial_x="100" initial_y="500"/>
+	<Hitbox x="-20" y="-7" width="20" height="14" angle="0"/>
+  <Sounds hit="hit.wav"/>
+	<Sprites orientation="idle">
+		<Sprite path="spaceship.png"/>
+	</Sprites>
+	<Sprites orientation="up">
+		<Sprite path="spaceship.png"/>
+	</Sprites>
+	<Sprites orientation="down">
+		<Sprite path="spaceship.png"/>
+	</Sprites>
+	<Sprites orientation="left">
+		<Sprite path="spaceship.png"/>
+	</Sprites>
+	<Sprites orientation="right">
+		<Sprite path="spaceship.png"/>
+	</Sprites>
+	<Sprites orientation="destroyed">
+		<Sprite path="death/1.png"/>
+		<Sprite path="death/2.png"/>
+		<Sprite path="death/3.png"/>
+		<Sprite path="death/4.png"/>
+		<Sprite path="death/5.png"/>
+		<Sprite path="death/6.png"/>
+	</Sprites>
+  <FlatShadow image_path="shadow.png">
+    <CaseRight>
+      <Point x="4" y="0"/>
+      <Point x="-3" y="25"/>
+      <Inbetween>
+        <Point x="0" y="-50"/>
+      </Inbetween>
+    </CaseRight>
+    <CaseLeft>
+      <Point x="4" y="0"/>
+      <Point x="-3" y="-25"/>
+    </CaseLeft>
+    <CaseTop>
+      <Point x="4" y="0"/>
+      <Point x="-3" y="25"/>
+    </CaseTop>
+  </FlatShadow>
+</MainFile>
