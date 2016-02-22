@@ -3,6 +3,11 @@
 		<Pattern bullet="boss bullet" velocity="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
 	</Type>
 	<Type name="A">
+		<Repeat amount="36" angle="10">
+	      <Pattern bullet="boss bullet" aim_player="yes" velocity="12" angle_change="1" ac_frequency="2" cooldown="20" duration="300"/>
+	      <Pattern bullet="boss bullet" aim_player="yes" velocity="12" angle_change="-1" ac_frequency="2" cooldown="20" duration="300"/>
+    </Repeat>
+
     <Pattern bullet="boss bullet" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
     <Pattern bullet="boss bullet" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
     <Pattern bullet="boss bullet" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
