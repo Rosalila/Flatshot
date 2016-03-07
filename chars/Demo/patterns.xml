@@ -5,8 +5,8 @@
 
 	<Type name="bomb">
 		<Pattern bullet="bomb" undestructable="yes" collides_bullets="yes" collides_opponent="no" animation_velocity="2" angle="0" velocity="0" acceleration="0" a_frequency="1" cooldown="10" offset_x="-35">
-      <Modifier at="10" bullet="bomb2" acceleration="2" a_frequency="3"/>
-      <Modifier at="50" acceleration="5" a_frequency="1"/>
+      <Modifier at="10" bullet="bomb2" acceleration="1" a_frequency="20"/>
+      <Modifier at="200" acceleration="2" a_frequency="1"/>
     </Pattern>
 	</Type>
 <!-- END OF FILE -->
