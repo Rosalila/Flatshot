@@ -3,6 +3,7 @@
 	<Attributes velocity="6" animation_velocity="4" hp="500" initial_x="100" initial_y="500"/>
   <Shield sprite="shield.png" max_shield="500" shield_fade="20" proration="25"/>
   <Charge sprite="charge.png" max_charge="200" charge_velocity="1" x="-40" y="0"/>
+  <Parry duration="3"/>
   <Hitboxes>
     <Hitbox x="-20" y="-7" width="20" height="14" angle="0"/>
   </Hitboxes>
