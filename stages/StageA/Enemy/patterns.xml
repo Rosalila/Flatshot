@@ -1,0 +1,12 @@
+<PatternsFile>
+	<Type name="demo pattern">
+		<Pattern bullet="boss bullet" velocity="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
+	</Type>
+	<Type name="A">
+    <Repeat amount="9" angle="40">
+      <Pattern bullet="boss bullet" velocity="10" angle_change="5" cooldown="35" aim_player="yes">
+        <Modifier at="100" aim_player="yes" angle_change="0" angle="0"/>
+      </Pattern>
+    </Repeat>
+	</Type>
+</PatternsFile>
