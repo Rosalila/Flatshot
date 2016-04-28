@@ -1,0 +1,28 @@
+<PatternsFile>
+	<Type name="demo pattern">
+		<Pattern bullet="boss bullet" velocity="6" max_velocity="6" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
+	</Type>
+	<Type name="A">
+    <Repeat amount="50">
+      <Pattern bullet="undestructable bullet" undestructable="yes" velocity="6" random_angle="360" br_change="6" a_frequency="10" startup="0" cooldown="40"/>
+    </Repeat>
+    <Repeat amount="3" offset_x="100">
+      <Pattern bullet="boss bullet" velocity="6" angle="120" a_frequency="10" startup="0" cooldown="30"  offset_x="-100">
+        <Modifier at="50" angle="-120" velocity="6"/>
+        <Modifier at="100" angle="120" velocity="6"/>
+
+        <Modifier at="170" angle="-120" velocity="6"/>
+        <Modifier at="240" angle="120" velocity="6"/>
+      </Pattern>
+    </Repeat>
+    <Repeat amount="3" offset_x="100">
+      <Pattern bullet="boss bullet" velocity="6" angle="-120" a_frequency="10" startup="0" cooldown="30"  offset_x="-100">
+        <Modifier at="50" angle="120"/>
+        <Modifier at="100" angle="-120"/>
+
+        <Modifier at="170" angle="120"/>
+        <Modifier at="240" angle="-120"/>
+      </Pattern>
+    </Repeat>
+	</Type>
+</PatternsFile>
