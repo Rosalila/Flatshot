@@ -17,7 +17,6 @@
 	</Stages>
   <Arcade>
     <Path name="Easy">
-      <stage name="Stageh"/>
       <stage name="Stagea"/>
       <stage name="Stageb"/>
       <stage name="Stagec"/>
@@ -25,6 +24,7 @@
       <stage name="Stagee"/>
       <stage name="Stagef"/>
       <stage name="Stageg"/>
+      <stage name="Stageh"/>
       <stage name="StageA"/>
       <stage name="StageB"/>
       <stage name="StageC"/>
