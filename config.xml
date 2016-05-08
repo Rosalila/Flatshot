@@ -2,18 +2,31 @@
 	<User name=""/>
 	<Resolution x="1366" y="768"/>
 	<ScreenSize x="1366" y="768"/>
-	<Fullscreen enabled="no"/>
+	<Fullscreen enabled="yes"/>
 	<Font red="52" green="73" blue="94" size="30"/>
 	<Chars>
-		<char name="Demo"/>
+		<char name="Easy"/>
+		<char name="Medium"/>
+		<char name="Hard"/>
 	</Chars>
 	<Stages>
-      <stage name="Stage1"/>
-      <stage name="Stage2"/>
-      <stage name="Stage3"/>
-      <stage name="Stage4"/>
-      <stage name="Stage5"/>
-      <stage name="Stage6"/>
+      <stage name="Stagea"/>
+      <stage name="Stageb"/>
+      <stage name="Stagec"/>
+      <stage name="Staged"/>
+      <stage name="Stagee"/>
+      <stage name="Stagef"/>
+      <stage name="Stageg"/>
+      <stage name="Stageh"/>
+      <stage name="StageA"/>
+      <stage name="StageB"/>
+      <stage name="StageC"/>
+      <stage name="StageD"/>
+      <stage name="StageE"/>
+      <stage name="StageX"/>
+      <stage name="StageY"/>
+      <stage name="StageZ"/>
+      <stage name="Stage7"/>
 	</Stages>
   <Arcade>
     <Path name="Easy">

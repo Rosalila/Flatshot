@@ -33,7 +33,7 @@
      id="namedview7"
      showgrid="false"
      inkscape:zoom="0.5050821"
-     inkscape:cx="662.2753"
+     inkscape:cx="421.72035"
      inkscape:cy="465.91295"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -58,34 +58,36 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       sodipodi:absref="/home/turupawn/FlatShooter/assets/menu/selection_bg.png"
+       sodipodi:absref="/home/turupawn/Projects/STG/assets/menu/selection_bg.png"
        xlink:href="selection_bg.png"
-       y="0"
-       x="0"
-       id="image2992"
+       width="1366"
        height="768"
-       width="1366" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect2983"
-       width="465.27094"
-       height="180.16872"
-       x="853.10522"
-       y="550.15326"
-       type="char_select"
-       chars_player2="0"
-       size_x="2"
-       size_y="1"
-       box_separation_x="15"
-       preview_player1_x="100"
-       preview_player1_y="60" />
+       id="image2992"
+       x="0"
+       y="0" />
     <rect
        style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985"
-       width="500"
-       height="252"
-       x="825.11334"
-       y="44.808998"
+       width="512"
+       height="512"
+       x="427"
+       y="128"
        type="stage_select" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2983"
+       width="384"
+       height="128"
+       x="491"
+       y="320"
+       type="char_select"
+       chars_player2="0"
+       size_x="3"
+       size_y="1"
+       box_separation_x="0"
+       preview_player1_x="491"
+       preview_player1_y="320"
+       box_size_x="128"
+       box_size_y="128" />
   </g>
 </svg>

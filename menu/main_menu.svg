@@ -33,8 +33,8 @@
      id="namedview7"
      showgrid="false"
      inkscape:zoom="0.5050821"
-     inkscape:cx="741.1805"
-     inkscape:cy="364.68356"
+     inkscape:cx="590.09387"
+     inkscape:cy="381.3268"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -60,34 +60,35 @@
     <image
        sodipodi:absref="/home/turupawn/Projects/STG/assets/menu/startscreen.png"
        xlink:href="startscreen.png"
-       fade_in_speed="5"
-       fade_in_initial="0"
-       y="0"
-       x="0"
-       id="image2992"
+       width="1366"
        height="768"
-       width="1366" />
+       id="image2992"
+       x="0"
+       y="0"
+       fade_in_initial="0"
+       fade_in_speed="5" />
     <image
-       sodipodi:absref="/home/turupawn/Projects/STG/assets/menu/button1.png"
-       xlink:href="button1.png"
-       load_menu="instructions.svg"
-       action="load"
-       type="button"
-       width="265"
-       height="138"
+       sodipodi:absref="/home/turupawn/Projects/STG/assets/menu/press_enter.png"
+       xlink:href="press_enter.png"
+       fade_in_initial="0"
+       y="545.80652"
+       x="573.5"
        id="image2995"
-       x="1485.0588"
-       y="26.164104" />
+       height="72"
+       width="219"
+       type="button"
+       action="load"
+       load_menu="instructions.svg" />
     <image
        sodipodi:absref="/home/turupawn/Projects/STG/assets/menu/button1.png"
        xlink:href="button1.png"
-       load_menu="selection_menu.svg"
-       action="Arcade"
-       type="button"
-       width="265"
-       height="138"
-       id="image9"
+       y="226.16411"
        x="1485.0588"
-       y="226.16411" />
+       id="image9"
+       height="138"
+       width="265"
+       type="button"
+       action="Arcade"
+       load_menu="selection_menu.svg" />
   </g>
 </svg>
