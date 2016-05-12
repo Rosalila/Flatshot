@@ -1,0 +1,22 @@
+<BulletsFile>
+	<Bullet name="boss kick" damage="100" sound="Bb, D.ogg" sound_channel="0">
+		<Sprite path="basic bullet.png"/>
+		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="boss clap" damage="100" sound="C, Ab.ogg" sound_channel="1">
+		<Sprite path="basic bullet.png"/>
+		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+</BulletsFile>

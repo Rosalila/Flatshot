@@ -1,7 +1,58 @@
 <BulletsFile>
-	<Bullet name="boss bullet" damage="100"  sound="shoot.wav">
+	<Bullet name="boss kick" damage="100"  sound="C, Ab.ogg" sound_channel="0">
 		<Sprite path="basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="boss arp" damage="100" sound_channel="2">
+		<Sprite path="basic bullet.png"/>
+		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="boss clap" damage="100"  sound="Bb, D.ogg" sound_channel="1">
+		<Sprite path="basic bullet.png"/>
+		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="boss mute" damage="100">
+		<Sprite path="basic bullet.png"/>
+		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="large bullet" damage="100">
+		<Sprite path="large bullet.png"/>
+		<Hitbox x="-5" y="-50" width="10" height="100" angle="0"/>
+		<OnHit>
+			<Sprite path="kajira/1.png"/>
+			<Sprite path="kajira/2.png"/>
+			<Sprite path="kajira/3.png"/>
+			<Sprite path="kajira/4.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="undestructable bullet" damage="40" sound="C, Ab.ogg" sound_channel="3">
+		<Sprite path="undestructable bullet.png"/>
+		<Hitbox x="-16" y="-16" width="32" height="32" angle="0"/>
+		<Hitbox x="-8" y="-8" width="16" height="16" angle="0"/>
 		<OnHit>
 			<Sprite path="kajira/1.png"/>
 			<Sprite path="kajira/2.png"/>

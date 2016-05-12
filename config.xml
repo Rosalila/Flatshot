@@ -2,7 +2,7 @@
 	<User name=""/>
 	<Resolution x="1366" y="768"/>
 	<ScreenSize x="1366" y="768"/>
-	<Fullscreen enabled="yes"/>
+	<Fullscreen enabled="no"/>
 	<Font red="52" green="73" blue="94" size="30"/>
 	<Chars>
 		<char name="Easy"/>
@@ -10,23 +10,28 @@
 		<char name="Hard"/>
 	</Chars>
 	<Stages>
-      <stage name="Stagea"/>
-      <stage name="Stageb"/>
-      <stage name="Stagec"/>
-      <stage name="Staged"/>
-      <stage name="Stagee"/>
-      <stage name="Stagef"/>
-      <stage name="Stageg"/>
-      <stage name="Stageh"/>
-      <stage name="StageA"/>
-      <stage name="StageB"/>
-      <stage name="StageC"/>
-      <stage name="StageD"/>
-      <stage name="StageE"/>
-      <stage name="StageX"/>
-      <stage name="StageY"/>
-      <stage name="StageZ"/>
+      <stage name="Stage6"/>
       <stage name="Stage7"/>
+      <stage name="Stage8"/>
+      <stage name="Stage9"/>
+      <stage name="Stage10"/>
+      <stage name="Stage11"/>
+      <stage name="Stage12"/>
+      <stage name="Stage13"/>
+      <stage name="Stage14"/>
+      <stage name="Stage15"/>
+      <stage name="Stage16"/>
+      <stage name="Stage17"/>
+      <stage name="Stage18"/>
+      <stage name="Stage19"/>
+      <stage name="Stage20"/>
+      <stage name="Stage21"/>
+      <stage name="Stage22"/>
+      <stage name="Stage1"/>
+      <stage name="Stage2"/>
+      <stage name="Stage3"/>
+      <stage name="Stage4"/>
+      <stage name="Stage5"/>
 	</Stages>
   <Arcade>
     <Path name="Easy">
