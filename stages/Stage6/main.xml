@@ -123,30 +123,4 @@
 	<BackLayer randomize_appereance="yes" random_group="b" randomize_color="yes" randomize_depth_effect_x="30" depth_effect_x="2" depth_effect_y="0" randomize_align_x="1500" align_x="0"  align_y="0" randomize_separation_x="500" separation_x="1000">
 		<frame image_path="../../shared_files/images/triangle4/5.png"/>
 	</BackLayer>
-
-
-
-<!--
-	<BackLayer randomize_appereance="yes" randomize_color="yes"  depth_effect_x="6" depth_effect_y="0" align_x="600" align_y="0" separation_x="900">
-		<frame image_path="BigTriangleLight.png"/>
-	</BackLayer>
-	<BackLayer randomize_appereance="yes" randomize_color="yes"  depth_effect_x="4" depth_effect_y="0" align_x="500" align_y="0" separation_x="1400">
-		<frame image_path="MediumTriangleStrong.png"/>
-	</BackLayer>
-	<BackLayer randomize_appereance="yes" randomize_color="yes"  depth_effect_x="2" depth_effect_y="0" align_x="920" align_y="0" separation_x="3300">
-		<frame image_path="SmallTriangleMedium.png"/>
-	</BackLayer>
-	<BackLayer randomize_appereance="yes" randomize_color="yes"  depth_effect_x="1" depth_effect_y="0" align_x="-100" align_y="0" separation_x="1500">
-		<frame image_path="BigVectorRight.png"/>
-	</BackLayer>
-	<BackLayer randomize_appereance="yes"randomize_color="yes"  depth_effect_x="-1" depth_effect_y="0" align_x="400" align_y="0" separation_x="2200">
-		<frame image_path="BigVectorLeft.png"/>
-	</BackLayer>
-	<BackLayer randomize_appereance="yes" randomize_color="yes"  depth_effect_x="0" depth_effect_y="0" align_x="-100" align_y="-140" separation_x="0">
-		<frame image_path="FogStraight.png"/>
-	</BackLayer>
-	<BackLayer randomize_appereance="yes" randomize_color="yes"  depth_effect_x="5" depth_effect_y="0" align_x="-100" align_y="-130" separation_x="0">
-		<frame image_path="FogCurves.png"/>
-	</BackLayer>
--->
 </StageFile>
