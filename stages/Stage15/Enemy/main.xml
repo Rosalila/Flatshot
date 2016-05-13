@@ -14,31 +14,31 @@
     <Hitbox x="-20" y="-43" width="40" height="87" angle="0"/>
     <Hitbox x="-10" y="-43" width="20" height="87" angle="0"/>
   </Hitboxes>
-  <Sounds hit="hit.wav"/>
+  <Sounds hit="../../../shared_files/Enemy/sounds/hit.wav"/>
 	<Sprites orientation="idle">
-		<Sprite path="character.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character.png"/>
 	</Sprites>
 	<Sprites orientation="up">
-		<Sprite path="character.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character.png"/>
 	</Sprites>
 	<Sprites orientation="down">
-		<Sprite path="character.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character.png"/>
 	</Sprites>
 	<Sprites orientation="left">
-		<Sprite path="character.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character.png"/>
 	</Sprites>
 	<Sprites orientation="right">
-		<Sprite path="character.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character.png"/>
 	</Sprites>
 	<Sprites orientation="destroyed">
-		<Sprite path="death1.png"/>
-		<Sprite path="death2.png"/>
-		<Sprite path="death3.png"/>
-		<Sprite path="death4.png"/>
-		<Sprite path="death5.png"/>
-		<Sprite path="death6.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/death1.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/death2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/death3.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/death4.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/death5.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/death6.png"/>
 	</Sprites>
-  <FlatShadow image_path="shadow.png">
+  <FlatShadow image_path="../../../shared_files/Enemy/sprites/shadow.png">
     <CaseLeft>
       <Point x="0" y="0"/>
       <Point x="0" y="0"/>

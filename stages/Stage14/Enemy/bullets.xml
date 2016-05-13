@@ -1,32 +1,32 @@
 <BulletsFile>
 	<Bullet name="boss bullet" damage="100">
-		<Sprite path="basic bullet.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
-			<Sprite path="kajira/1.png"/>
-			<Sprite path="kajira/2.png"/>
-			<Sprite path="kajira/3.png"/>
-			<Sprite path="kajira/4.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/1.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/2.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/3.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="large kick" damage="100" sound="C, Ab.ogg" sound_channel="0">
-		<Sprite path="large bullet.png"/>
+	<Bullet name="large kick" damage="100" sound="../../../shared_files/Enemy/sounds/C, Ab.ogg" sound_channel="0">
+		<Sprite path="../../../shared_files/Enemy/sprites/large bullet.png"/>
 		<Hitbox x="-5" y="-50" width="10" height="100" angle="0"/>
 		<OnHit>
-			<Sprite path="kajira/1.png"/>
-			<Sprite path="kajira/2.png"/>
-			<Sprite path="kajira/3.png"/>
-			<Sprite path="kajira/4.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/1.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/2.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/3.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="large clap" damage="100" sound="F.ogg" sound_channel="1">
-		<Sprite path="large bullet.png"/>
+	<Bullet name="large clap" damage="100" sound="../../../shared_files/Enemy/sounds/F.ogg" sound_channel="1">
+		<Sprite path="../../../shared_files/Enemy/sprites/large bullet.png"/>
 		<Hitbox x="-5" y="-50" width="10" height="100" angle="0"/>
 		<OnHit>
-			<Sprite path="kajira/1.png"/>
-			<Sprite path="kajira/2.png"/>
-			<Sprite path="kajira/3.png"/>
-			<Sprite path="kajira/4.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/1.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/2.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/3.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
 </BulletsFile>

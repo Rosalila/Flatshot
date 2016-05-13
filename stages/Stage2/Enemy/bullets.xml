@@ -1,12 +1,12 @@
 <BulletsFile>
-	<Bullet name="boss bullet" damage="100"  sound="shoot.wav">
-		<Sprite path="basic bullet.png"/>
+	<Bullet name="boss bullet" damage="100">
+		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
-			<Sprite path="kajira/1.png"/>
-			<Sprite path="kajira/2.png"/>
-			<Sprite path="kajira/3.png"/>
-			<Sprite path="kajira/4.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/1.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/2.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/3.png"/>
+			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
 </BulletsFile>
