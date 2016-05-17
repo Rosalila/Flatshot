@@ -1,24 +1,26 @@
 <PatternsFile>
 	<Type name="A">
-    <Repeat amount="30" startup="1">
-      <Pattern bullet="large bullet" random_angle="360" velocity="4" cooldown="150"/>
+    <Pattern bullet="large low" random_angle="360" velocity="4" cooldown="119"/>
+    <Repeat amount="29" startup="1">
+      <Pattern bullet="large mute" startup="1" random_angle="360" velocity="4" cooldown="119"/>
     </Repeat>
 
-    <Repeat amount="30" startup="1">
-      <Pattern bullet="boss bullet" random_angle="360" velocity="4" startup="50" cooldown="150"/>
+    <Pattern bullet="boss mute" random_angle="360" velocity="4" startup="59" cooldown="119"/>
+    <Repeat amount="29" startup="1">
+      <Pattern bullet="boss mute" random_angle="360" velocity="4" startup="59" cooldown="119"/>
     </Repeat>
 
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" cooldown="60" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" cooldown="60" offset_y="100" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" cooldown="60" offset_y="200" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" cooldown="60" offset_y="-100" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" cooldown="60" offset_y="-200" offset_x="-1000"/>
+    <Pattern bullet="boss hi" aim_player="yes" velocity="8" cooldown="59" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" cooldown="59" offset_y="100" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" cooldown="59" offset_y="200" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" cooldown="59" offset_y="-100" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" cooldown="59" offset_y="-200" offset_x="-1000"/>
 
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" startup="30" cooldown="60" offset_y="50" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" startup="30" cooldown="60" offset_y="150" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" startup="30" cooldown="60" offset_y="250" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" startup="30" cooldown="60" offset_y="-50" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" startup="30" cooldown="60" offset_y="-150" offset_x="-1000"/>
-    <Pattern bullet="boss bullet" aim_player="yes" velocity="8" startup="30" cooldown="60" offset_y="-250" offset_x="-1000"/>
+    <Pattern bullet="boss hi" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="50" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="150" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="250" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-50" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-150" offset_x="-1000"/>
+    <Pattern bullet="boss mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-250" offset_x="-1000"/>
 	</Type>
 </PatternsFile>

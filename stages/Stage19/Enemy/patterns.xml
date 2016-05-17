@@ -1,11 +1,11 @@
 <PatternsFile>
 	<Type name="A">
 
-    <Pattern bullet="boss bullet" velocity="7" max_velocity="7" a_frequency="10" cooldown="29" duration="1000" aim_player="yes" angle="0" random_angle="40" homing="yes">
+    <Pattern bullet="boss low" velocity="7" max_velocity="7" a_frequency="10" cooldown="29" duration="1000" aim_player="yes" angle="0" random_angle="40" homing="yes">
       <Modifier at="80" homing="no"/>
     </Pattern>
 
-    <Pattern bullet="undestructable bullet" velocity="0" max_velocity="10" acceleration="1" a_frequency="5" cooldown="14" duration="1000" aim_player="yes" angle="0" random_angle="40" homing="yes" undestructable="no">
+    <Pattern bullet="undestructable hi" velocity="0" max_velocity="10" acceleration="1" a_frequency="5" cooldown="14" duration="1000" aim_player="yes" angle="0" random_angle="40" homing="yes" undestructable="no">
       <Modifier at="50" homing="no"/>
     </Pattern>
 

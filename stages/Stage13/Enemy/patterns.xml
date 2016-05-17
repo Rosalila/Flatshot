@@ -1,6 +1,6 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="undestructable kick" undestructable="yes" velocity="5" max_velocity="14" startup="0" cooldown="60" aim_player="yes" angle_change="1" random_angle="360">
+    <Pattern bullet="undestructable low" undestructable="yes" velocity="5" max_velocity="14" startup="0" cooldown="60" aim_player="yes" angle_change="1" random_angle="360">
       <Modifier at="50" angle_change="-1"/>
       <Modifier at="100" angle_change="1"/>
       <Modifier at="150" angle_change="-1"/>
