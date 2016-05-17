@@ -1,27 +1,35 @@
 <PatternsFile>
-	<Type name="demo pattern">
-		<Pattern bullet="boss mute" velocity="6" max_velocity="6" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
-	</Type>
 	<Type name="A">
-    <Repeat amount="50">
-      <Pattern bullet="undestructable bullet" undestructable="yes" velocity="6" random_angle="360" br_change="6" a_frequency="10" startup="0" cooldown="59"/>
+    <Pattern bullet="undestructable low" undestructable="yes" velocity="6" random_angle="360" br_change="6" a_frequency="10" startup="0" cooldown="59"/>
+    <Repeat amount="49">
+      <Pattern bullet="undestructable mute" undestructable="yes" velocity="6" random_angle="360" br_change="6" a_frequency="10" startup="0" cooldown="59"/>
     </Repeat>
-    <Repeat amount="3" offset_x="100">
-      <Pattern bullet="boss kick" velocity="6" angle="120" a_frequency="10" startup="0" cooldown="29"  offset_x="-100">
-        <Modifier at="50" angle="-120" velocity="6"/>
-        <Modifier at="100" angle="120" velocity="6"/>
-
-        <Modifier at="170" angle="-120" velocity="6"/>
-        <Modifier at="240" angle="120" velocity="6"/>
-      </Pattern>
-    </Repeat>
-    <Repeat amount="3" offset_x="100">
-      <Pattern bullet="boss kick" velocity="6" angle="-120" a_frequency="10" startup="0" cooldown="29"  offset_x="-100">
+    <Pattern bullet="boss hi" velocity="6" angle="120" a_frequency="10" startup="0" cooldown="29"  offset_x="-100">
+      <Modifier at="50" angle="-120"/>
+      <Modifier at="100" angle="120"/>
+      <Modifier at="170" angle="-120"/>
+      <Modifier at="240" angle="120"/>
+    </Pattern>
+    <Pattern bullet="boss hi" velocity="6" angle="-120" a_frequency="10" startup="0" cooldown="29"  offset_x="-100">
+      <Modifier at="50" angle="120"/>
+      <Modifier at="100" angle="-120"/>
+      <Modifier at="170" angle="120"/>
+      <Modifier at="240" angle="-120"/>
+    </Pattern>
+    <Repeat amount="2" offset_x="100">
+      <Pattern bullet="boss mute" velocity="6" angle="-120" a_frequency="10" startup="0" cooldown="29"  offset_x="0">
         <Modifier at="50" angle="120"/>
         <Modifier at="100" angle="-120"/>
-
         <Modifier at="170" angle="120"/>
         <Modifier at="240" angle="-120"/>
+      </Pattern>
+    </Repeat>
+    <Repeat amount="2" offset_x="100">
+      <Pattern bullet="boss mute" velocity="6" angle="120" a_frequency="10" startup="0" cooldown="29" offset_x="0">
+        <Modifier at="50" angle="-120"/>
+        <Modifier at="100" angle="120"/>
+        <Modifier at="170" angle="-120"/>
+        <Modifier at="240" angle="120"/>
       </Pattern>
     </Repeat>
 	</Type>

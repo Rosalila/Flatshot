@@ -1,7 +1,22 @@
 <PatternsFile>
 	<Type name="A">
     <Repeat amount="9" angle="40">
-      <Pattern bullet="boss kick" velocity="10" angle_change="5" cooldown="35" aim_player="yes">
+      <Pattern bullet="boss hi" velocity="10" angle_change="5" startup="0" cooldown="80" aim_player="yes">
+        <Modifier at="100" aim_player="yes" angle_change="0" angle="0"/>
+      </Pattern>
+    </Repeat>
+    <Repeat amount="9" angle="40">
+      <Pattern bullet="boss hi" velocity="10" angle_change="5" startup="10" cooldown="80" aim_player="yes">
+        <Modifier at="100" aim_player="yes" angle_change="0" angle="0"/>
+      </Pattern>
+    </Repeat>
+    <Repeat amount="9" angle="40">
+      <Pattern bullet="boss hi" velocity="10" angle_change="5" startup="20" cooldown="80" aim_player="yes">
+        <Modifier at="100" aim_player="yes" angle_change="0" angle="0"/>
+      </Pattern>
+    </Repeat>
+    <Repeat amount="9" angle="40">
+      <Pattern bullet="boss low" velocity="10" angle_change="5" startup="30" cooldown="80" aim_player="yes">
         <Modifier at="100" aim_player="yes" angle_change="0" angle="0"/>
       </Pattern>
     </Repeat>
