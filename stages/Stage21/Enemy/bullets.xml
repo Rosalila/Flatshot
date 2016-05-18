@@ -1,5 +1,5 @@
 <BulletsFile>
-	<Bullet name="large hi" damage="100" sound_channel="0" randomize_sound_frequency="7">
+	<Bullet name="large hi" damage="100" sound_channel="0" arpeggio_length="2" randomize_sound_frequency="7">
     <RandomSound>
       <Sound path="../../../shared_files/Enemy/sounds/X/C.ogg"/>
       <Sound path="../../../shared_files/Enemy/sounds/X/D.ogg"/>

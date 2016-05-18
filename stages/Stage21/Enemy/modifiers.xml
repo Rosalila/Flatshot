@@ -12,8 +12,8 @@
 	<Modifier at="700" pattern_type="A" velocity="200" angle="-90"/>
 	<Modifier at="701" velocity="1" angle_change="5"/>
 
-	<Modifier at="800" pattern_type="A" velocity="200" angle="90"/>
-	<Modifier at="801" velocity="1" angle_change="5"/>
+	<Modifier at="900" pattern_type="A" velocity="200" angle="90"/>
+	<Modifier at="901" velocity="1" angle_change="5"/>
 
-	<Modifier at="999" iterator="300"/>
+	<Modifier at="1099" iterator="300"/>
 </ModifiersFile>
