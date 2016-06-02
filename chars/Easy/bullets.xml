@@ -1,5 +1,5 @@
 <BulletsFile>
-	<Bullet name="basic bullet" damage="2" sound="shoot.wav">
+	<Bullet name="basic bullet" damage="2" sound="shoot.wav" sound_channel="-1">
 		<Sprite path="basic bullet.png"/>
 		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
 		<OnHit>

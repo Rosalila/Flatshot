@@ -1,6 +1,121 @@
 <PatternsFile>
 	<Type name="A">
 
+    <Pattern bullet="boss hi2" aim_player="yes" startup="0" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="0" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi2" aim_player="yes" startup="19" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="19" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="19" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="19" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss mute" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="79" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+
+    <Pattern bullet="boss low" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+    </Repeat>
+	</Type>
+
+
+	<Type name="B">
+    <Pattern bullet="boss hi3" aim_player="yes" startup="0" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="0" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi3" aim_player="yes" startup="9" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="9" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="9" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="9" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi3" aim_player="yes" startup="29" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="29" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="29" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="29" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss mute" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="79" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+
+    <Pattern bullet="boss low" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+    </Repeat>
+
+    <Pattern bullet="boss lowY" velocity="3" max_velocity="10" animation_velocity="5" startup="59" cooldown="79" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="59" cooldown="79" random_angle="360"/>
+    </Repeat>
+	</Type>
+
+
+	<Type name="C">
+    <Pattern bullet="boss hi" aim_player="yes" startup="0" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="0" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="9" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="9" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="9" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="9" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="19" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="19" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="19" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="19" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="29" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="29" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="29" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="29" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss mute" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="79" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+
+
+    <Pattern bullet="boss low" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+    </Repeat>
+
+    <Pattern bullet="boss lowX" velocity="3" max_velocity="10" animation_velocity="5" startup="39" cooldown="159" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="39" cooldown="159" random_angle="360"/>
+    </Repeat>
+
+    <Pattern bullet="boss lowX" velocity="3" max_velocity="10" animation_velocity="5" startup="19" cooldown="159" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="19" cooldown="159" random_angle="360"/>
+    </Repeat>
+	</Type>
+
+
+	<Type name="X">
     <Pattern bullet="boss hi" aim_player="yes" velocity="12" angle_change="1" ac_frequency="2" cooldown="19" duration="300"/>
     <Pattern bullet="boss mute" aim_player="yes" velocity="12" angle_change="-1" ac_frequency="2" cooldown="19" duration="300"/>
 		<Repeat amount="35" angle="10">
@@ -17,4 +132,89 @@
       <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
     </Repeat>
 	</Type>
+
+
+
+
+	<Type name="I">
+    <Pattern bullet="boss hi3" aim_player="yes" startup="0" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="0" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi3" aim_player="yes" startup="9" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="9" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="9" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="9" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi3" aim_player="yes" startup="29" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="29" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="29" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="29" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss mute" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="79" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+
+    <Pattern bullet="boss low" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+    </Repeat>
+
+
+	</Type>
+
+	<Type name="J">
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="0" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="0" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="0" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="20" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="20" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="20" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="20" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="40" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="40" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="40" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="40" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="50" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="50" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="50" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="50" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss hi" aim_player="yes" startup="60" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+    <Pattern bullet="boss mute" aim_player="yes" startup="60" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+		<Repeat amount="35" angle="10">
+      <Pattern bullet="boss mute" aim_player="yes" startup="60" angle="10" velocity="12" angle_change="1" ac_frequency="2" cooldown="79" duration="300"/>
+      <Pattern bullet="boss mute" aim_player="yes" startup="60" angle="10" velocity="12" angle_change="-1" ac_frequency="2" cooldown="79" duration="300"/>
+    </Repeat>
+
+    <Pattern bullet="boss mute" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="79" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+    <Pattern bullet="boss mute" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
+
+    <Pattern bullet="boss low" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+		<Repeat amount="39">
+      <Pattern bullet="boss mute" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="79" random_angle="360"/>
+    </Repeat>
+	</Type>
+
 </PatternsFile>
