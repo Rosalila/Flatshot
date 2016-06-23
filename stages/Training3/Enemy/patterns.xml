@@ -1,14 +1,7 @@
 <PatternsFile>
-	<Type name="demo pattern">
-		<Pattern bullet="boss bullet" velocity="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
-	</Type>
 	<Type name="A">
-    <Pattern bullet="boss bullet" velocity="15" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
-    <Pattern bullet="boss bullet" velocity="15" angle="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
-    <Pattern bullet="boss bullet" velocity="15" angle="-10" max_velocity="15" animation_velocity="5" startup="0" cooldown="50" aim_player="yes"/>
-
-		<Repeat amount="15">
-      <Pattern bullet="boss bullet" velocity="3" max_velocity="10" animation_velocity="5" startup="0" cooldown="80" random_angle="360"/>
+    <Repeat amount="100" startup="1">
+      <Pattern bullet="boss bullet" startup="200" cooldown="400" angle="175" random_angle="10" velocity="15" animation_velocity="5"/>
     </Repeat>
 	</Type>
 </PatternsFile>

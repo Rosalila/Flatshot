@@ -12,14 +12,9 @@
 	<Stages>
       <stage name="Training1"/>
       <stage name="Training2"/>
-      <stage name="Training1"/>
-      <stage name="Training1"/>
-      <stage name="Training1"/>
-<!--
       <stage name="Training3"/>
       <stage name="Training4"/>
       <stage name="Training5"/>
--->
       <stage name="A1"/>
       <stage name="A2"/>
       <stage name="A3"/>

@@ -1,6 +1,6 @@
 <MainFile>
 	<LifeBar color_r="192" color_g="57" color_b="43" rect_offset_x="60" rect_offset_y="10" rect_width="352" rect_height="40" y="707"/>
-	<Attributes velocity="0" animation_velocity="4" hp="250" initial_x="1600" initial_y="400"/>
+	<Attributes velocity="0" animation_velocity="4" hp="99999999" initial_x="1600" initial_y="400"/>
 	<!--<Hitbox x="-122" y="-43" width="243" height="87" angle="0"/>-->
   <Hitboxes>
     <Hitbox x="-100" y="-43" width="200" height="87" angle="0"/>
