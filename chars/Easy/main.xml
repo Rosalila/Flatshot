@@ -1,6 +1,6 @@
 <MainFile>
 	<LifeBar color_r="39" color_g="174" color_b="96" rect_offset_x="60" rect_offset_y="10" rect_width="352" rect_height="40"/>
-	<Attributes velocity="6" animation_velocity="4" hp="500" initial_x="100" initial_y="500"/>
+	<Attributes velocity="6" animation_velocity="4" hp="500" initial_x="100" initial_y="420"/>
   <Shield sprite="shield.png" max_shield="500" shield_fade="40" proration="40"/>
   <Charge sprite="charge.png" max_charge="300" charge_velocity="1" x="-40" y="0"/>
   <Parry duration="3" sound="parry.wav">
