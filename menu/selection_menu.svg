@@ -32,7 +32,7 @@
      id="namedview7"
      showgrid="false"
      inkscape:zoom="0.5050821"
-     inkscape:cx="425.6801"
+     inkscape:cx="433.5996"
      inkscape:cy="465.91295"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -63,7 +63,13 @@
        height="512"
        x="427"
        y="128"
-       type="stage_select" />
+       type="stage_select"
+       path_left="arrow_left.png"
+       path_right="arrow_right.png"
+       arrow_right_x="550"
+       arrow_left_x="-270"
+       arrow_left_y="180"
+       arrow_right_y="180" />
     <rect
        style="fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2983"
