@@ -2,12 +2,10 @@
 	<User name=""/>
 	<Resolution x="1366" y="768"/>
 	<ScreenSize x="1366" y="768"/>
-	<Fullscreen enabled="no"/>
+	<Fullscreen enabled="no "/>
 	<Font red="52" green="73" blue="94" size="30"/>
 	<Chars>
-		<char name="Easy"/>
-		<char name="Medium"/>
-		<char name="Hard"/>
+		<char name="Triangle"/>
 	</Chars>
 	<Stages>
       <stage name="Training1"/>

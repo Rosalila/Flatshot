@@ -1,9 +1,9 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="undestructable z" undestructable="yes" velocity="2" cooldown="599" homing="yes"/>
+    <Pattern bullet="square" undestructable="yes" velocity="2" cooldown="599" homing="yes"/>
 
-    <Pattern bullet="large hi" angle="-90" velocity="1" startup="0" cooldown="299" offset_y="400" offset_x="100"/>
-    <Pattern bullet="large hi" angle="-90" velocity="1" startup="150" cooldown="299" offset_y="400" offset_x="0"/>
+    <Pattern bullet="large" angle="-90" velocity="1" startup="0" cooldown="299" offset_y="400" offset_x="100"/>
+    <Pattern bullet="large" angle="-90" velocity="1" startup="150" cooldown="299" offset_y="400" offset_x="0"/>
     <Pattern bullet="large mute" angle="-90" velocity="1" startup="0" cooldown="299" offset_y="400" offset_x="-100"/>
     <Pattern bullet="large mute" angle="-90" velocity="1" startup="150" cooldown="299" offset_y="400" offset_x="-200"/>
     <Pattern bullet="large mute" angle="-90" velocity="1" startup="0" cooldown="299" offset_y="400" offset_x="-300"/>

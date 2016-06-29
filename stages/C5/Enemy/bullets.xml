@@ -1,12 +1,5 @@
 <BulletsFile>
-	<Bullet name="large hi" damage="100" sound_channel="0" randomize_sound_frequency="4">
-    <RandomSound>
-      <Sound path="../../../shared_files/Enemy/sounds/X/C.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/D.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/E.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/G.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/A.ogg"/>
-    </RandomSound>
+	<Bullet name="large" damage="100" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/large.wav">
 		<Sprite path="../../../shared_files/Enemy/sprites/large bullet.png"/>
 		<Hitbox x="-5" y="-50" width="10" height="100" angle="0"/>
 		<OnHit>
@@ -16,14 +9,7 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="undestructable z" damage="40" sound_channel="1" randomize_sound_frequency="8">
-    <RandomSound>
-      <Sound path="../../../shared_files/Enemy/sounds/Z/C.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Z/D.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Z/E.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Z/G.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Z/A.ogg"/>
-    </RandomSound>
+	<Bullet name="square" damage="40" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/square.wav">
 		<Sprite path="../../../shared_files/Enemy/sprites/undestructable bullet.png"/>
 		<Hitbox x="-16" y="-16" width="32" height="32" angle="0"/>
 		<Hitbox x="-8" y="-8" width="16" height="16" angle="0"/>

@@ -1,12 +1,5 @@
 <BulletsFile>
-	<Bullet name="boss hi" damage="100" sound_channel="0" randomize_sound_frequency="16">
-    <RandomSound>
-      <Sound path="../../../shared_files/Enemy/sounds/X/C.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/D.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/E.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/G.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/X/A.ogg"/>
-    </RandomSound>
+	<Bullet name="basic" damage="100" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/basic.wav">
 		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
@@ -16,7 +9,7 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="boss mute" damage="100">
+	<Bullet name="basic mute" damage="100">
 		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
@@ -26,14 +19,7 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="undestructable low" damage="40" sound_channel="3" randomize_sound_frequency="16">
-    <RandomSound>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/C.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/D.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/E.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/G.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/A.ogg"/>
-    </RandomSound>
+	<Bullet name="square" damage="40" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/square.wav">
 		<Sprite path="../../../shared_files/Enemy/sprites/undestructable bullet.png"/>
 		<Hitbox x="-16" y="-16" width="32" height="32" angle="0"/>
 		<Hitbox x="-8" y="-8" width="16" height="16" angle="0"/>
@@ -44,7 +30,7 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="undestructable mute" damage="40">
+	<Bullet name="square mute" damage="40">
 		<Sprite path="../../../shared_files/Enemy/sprites/undestructable bullet.png"/>
 		<Hitbox x="-16" y="-16" width="32" height="32" angle="0"/>
 		<Hitbox x="-8" y="-8" width="16" height="16" angle="0"/>

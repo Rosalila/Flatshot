@@ -1,5 +1,5 @@
 <BulletsFile>
-	<Bullet name="boss hi" damage="100" sound_channel="0" arpeggio_length="8" randomize_sound_frequency="16">
+	<Bullet name="basic" damage="100" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/basic.wav">
     <RandomSound>
       <Sound path="../../../shared_files/Enemy/sounds/X/C.ogg"/>
       <Sound path="../../../shared_files/Enemy/sounds/X/D.ogg"/>
@@ -16,24 +16,7 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="boss low" damage="100" sound_channel="1" randomize_sound_frequency="4">
-    <RandomSound>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/C.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/D.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/E.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/G.ogg"/>
-      <Sound path="../../../shared_files/Enemy/sounds/Y/A.ogg"/>
-    </RandomSound>
-		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
-		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
-		<OnHit>
-			<Sprite path="../../../shared_files/Enemy/sprites/kajira/1.png"/>
-			<Sprite path="../../../shared_files/Enemy/sprites/kajira/2.png"/>
-			<Sprite path="../../../shared_files/Enemy/sprites/kajira/3.png"/>
-			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
-		</OnHit>
-	</Bullet>
-	<Bullet name="boss mute" damage="100">
+	<Bullet name="basic mute" damage="100">
 		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
