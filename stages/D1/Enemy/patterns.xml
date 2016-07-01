@@ -1,6 +1,6 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="square" velocity="0" max_velocity="7" acceleration="1" a_frequency="5" cooldown="59" angle="0" aim_player="yes" undestructable="no">
+    <Pattern bullet="square" velocity="0" max_velocity="7" acceleration="1" a_frequency="5" cooldown="59" angle="0" aim_player="yes" undestructable="yes">
       <Modifier at="50" homing="no"/>
     </Pattern>
 
