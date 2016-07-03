@@ -5,7 +5,7 @@
       <Modifier at="80" homing="no"/>
     </Pattern>
 
-    <Pattern bullet="square" velocity="0" max_velocity="10" acceleration="1" a_frequency="5" cooldown="14" duration="1000" aim_player="yes" angle="0" random_angle="40" homing="yes" undestructable="no">
+    <Pattern bullet="square" velocity="0" max_velocity="10" acceleration="1" a_frequency="5" cooldown="14" duration="1000" aim_player="yes" angle="0" random_angle="40" homing="yes" undestructable="yes">
       <Modifier at="50" homing="no"/>
     </Pattern>
 
