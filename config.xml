@@ -3,7 +3,7 @@
 	<Resolution x="1366" y="768"/>
 	<ScreenSize x="1366" y="768"/>
 	<Fullscreen enabled="yes"/>
-	<Font red="52" green="73" blue="94" size="30"/>
+	<Font red="255" green="255" blue="255" size="30"/>
 	<Chars>
 		<char name="Triangle"/>
 	</Chars>
