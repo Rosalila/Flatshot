@@ -1,5 +1,6 @@
 <BulletsFile>
-	<Bullet name="basic" damage="100" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/basic.wav">
+	<Bullet name="basic" damage="100" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/basic.wav" width="20" height="6">
+    <Color red="255" green="255" blue="255" alpha="255"/>
 		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
@@ -9,7 +10,8 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="square" damage="40" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/basic.wav">
+	<Bullet name="square" damage="40" sound_channel="-1" sound="../../../shared_files/Enemy/sounds/basic.wav" width="16" height="16">
+    <Color red="255" green="255" blue="255" alpha="255"/>
 		<Sprite path="../../../shared_files/Enemy/sprites/undestructable bullet.png"/>
 		<Hitbox x="-16" y="-16" width="32" height="32" angle="0"/>
 		<Hitbox x="-8" y="-8" width="16" height="16" angle="0"/>
@@ -20,7 +22,8 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="basic mute" damage="100">
+	<Bullet name="basic mute" damage="100" width="20" height="6">
+    <Color red="255" green="255" blue="255" alpha="255"/>
 		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
@@ -30,7 +33,8 @@
 			<Sprite path="../../../shared_files/Enemy/sprites/kajira/4.png"/>
 		</OnHit>
 	</Bullet>
-	<Bullet name="square mute" damage="40">
+	<Bullet name="square mute" damage="40" width="16" height="16">
+    <Color red="255" green="255" blue="255" alpha="255"/>
 		<Sprite path="../../../shared_files/Enemy/sprites/undestructable bullet.png"/>
 		<Hitbox x="-16" y="-16" width="32" height="32" angle="0"/>
 		<Hitbox x="-8" y="-8" width="16" height="16" angle="0"/>

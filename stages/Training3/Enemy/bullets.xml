@@ -1,5 +1,6 @@
 <BulletsFile>
-	<Bullet name="basic" damage="0" sound_channel="0" sound="../../../shared_files/Enemy/sounds/basic.wav">
+	<Bullet name="basic" damage="0" sound_channel="0" sound="../../../shared_files/Enemy/sounds/basic.wav" width="20" height="6">
+    <Color red="255" green="255" blue="255" alpha="255"/>
 		<Sprite path="../../../shared_files/Enemy/sprites/basic bullet.png"/>
 		<Hitbox x="-10" y="-3" width="20" height="6" angle="0"/>
 		<OnHit>
