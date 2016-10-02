@@ -10,27 +10,27 @@
     </Pattern>
 
     <Repeat amount="4" acceleration="1">
-      <Pattern bullet="basic mute" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
+      <Pattern bullet="basic" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
         <Modifier at="35" acceleration="-3"/>
       </Pattern>
     </Repeat>
     <Repeat amount="4" acceleration="1">
-      <Pattern bullet="basic mute" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
+      <Pattern bullet="basic" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
         <Modifier at="35" acceleration="-3"/>
       </Pattern>
     </Repeat>
     <Repeat amount="4" acceleration="1">
-      <Pattern bullet="basic mute" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
+      <Pattern bullet="basic" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
         <Modifier at="35" acceleration="-3"/>
       </Pattern>
     </Repeat>
     <Repeat amount="4" acceleration="1">
-      <Pattern bullet="basic mute" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
+      <Pattern bullet="basic" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
         <Modifier at="35" acceleration="-3"/>
       </Pattern>
     </Repeat>
     <Repeat amount="4" acceleration="1">
-      <Pattern bullet="basic mute" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
+      <Pattern bullet="basic" velocity="1" max_velocity="7" a_frequency="10" cooldown="75" duration="1000" aim_player="yes" angle="160" random_angle="40" homing="no">
         <Modifier at="35" acceleration="-3"/>
       </Pattern>
     </Repeat>

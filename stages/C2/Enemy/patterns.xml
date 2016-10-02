@@ -9,16 +9,16 @@
     </Repeat>
 
     <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" cooldown="59" offset_y="100" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" cooldown="59" offset_y="200" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" cooldown="59" offset_y="-100" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" cooldown="59" offset_y="-200" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="100" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="200" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="-100" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="-200" offset_x="-1000"/>
 
     <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="50" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="150" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="250" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-50" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-150" offset_x="-1000"/>
-    <Pattern bullet="basic mute" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-250" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="150" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="250" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-50" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-150" offset_x="-1000"/>
+    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-250" offset_x="-1000"/>
 	</Type>
 </PatternsFile>
