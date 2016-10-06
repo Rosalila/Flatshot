@@ -1,24 +1,234 @@
 <PatternsFile>
 	<Type name="A">
-    <Repeat amount="29" startup="1">
-      <Pattern bullet="large" startup="0" random_angle="360" velocity="4" cooldown="119"/>
-    </Repeat>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="0"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="10"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="20"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="30"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="40"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="50"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="60"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="70"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="80"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="90"/>
+    </Pattern>
 
-    <Repeat amount="29" startup="1">
-      <Pattern bullet="basic" random_angle="360" velocity="4" startup="59" cooldown="119"/>
-    </Repeat>
 
-    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="100" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="200" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="-100" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" cooldown="59" offset_y="-200" offset_x="-1000"/>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="100"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="110"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="120"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="130"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="140"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="150"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="160"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="170"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="180"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="190"/>
+    </Pattern>
 
-    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="50" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="150" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="250" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-50" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-150" offset_x="-1000"/>
-    <Pattern bullet="basic" aim_player="yes" velocity="8" startup="59" cooldown="59" offset_y="-250" offset_x="-1000"/>
+
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="200"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="210"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="220"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="230"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="240"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="250"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="260"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="270"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="280"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="290"/>
+    </Pattern>
+
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="300"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="310"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="320"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="330"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="340"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="160">
+      <Modifier at="40" velocity="5" angle="350"/>
+    </Pattern>
+
+
+
+
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="0"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="10"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="20"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="30"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="40"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="50"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="60"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="70"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="80"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="90"/>
+    </Pattern>
+
+
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="100"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="110"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="120"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="130"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="140"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="150"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="160"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="170"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="180"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="190"/>
+    </Pattern>
+
+
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="200"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="210"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="220"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="230"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="240"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="250"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="260"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="270"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="280"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="290"/>
+    </Pattern>
+
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="300"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="310"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="320"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="330"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="340"/>
+    </Pattern>
+    <Pattern bullet="square" velocity="10" a_frequency="3" startup="0" cooldown="150" angle="-160">
+      <Modifier at="40" velocity="5" angle="350"/>
+    </Pattern>
 	</Type>
 </PatternsFile>

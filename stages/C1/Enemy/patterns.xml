@@ -1,9 +1,36 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="large" velocity="4" max_velocity="20" animation_velocity="5" startup="50" cooldown="100" aim_player="yes"/>
-    <Pattern bullet="basic" velocity="2" max_velocity="15" animation_velocity="5" startup="0" cooldown="100" aim_player="yes" offset_x="-1000" random_angle="30" angle="-15"/>
-    <Repeat amount="10" offset_y="50">
-      <Pattern bullet="basic" velocity="2" max_velocity="15" animation_velocity="5" startup="0" cooldown="100" aim_player="yes" offset_x="-1000" offset_y="-400" random_angle="30" angle="-15"/>
+    <Pattern bullet="square" undestructable="yes" velocity="6" random_angle="360" br_change="6" a_frequency="10" startup="0" cooldown="59"/>
+    <Repeat amount="49">
+      <Pattern bullet="square" undestructable="yes" velocity="6" random_angle="360" br_change="6" a_frequency="10" startup="0" cooldown="59"/>
+    </Repeat>
+    <Pattern bullet="basic" velocity="6" angle="120" a_frequency="10" startup="0" cooldown="29"  offset_x="-100">
+      <Modifier at="50" angle="-120"/>
+      <Modifier at="100" angle="120"/>
+      <Modifier at="170" angle="-120"/>
+      <Modifier at="240" angle="120"/>
+    </Pattern>
+    <Pattern bullet="basic" velocity="6" angle="-120" a_frequency="10" startup="0" cooldown="29"  offset_x="-100">
+      <Modifier at="50" angle="120"/>
+      <Modifier at="100" angle="-120"/>
+      <Modifier at="170" angle="120"/>
+      <Modifier at="240" angle="-120"/>
+    </Pattern>
+    <Repeat amount="2" offset_x="100">
+      <Pattern bullet="basic" velocity="6" angle="-120" a_frequency="10" startup="0" cooldown="29"  offset_x="0">
+        <Modifier at="50" angle="120"/>
+        <Modifier at="100" angle="-120"/>
+        <Modifier at="170" angle="120"/>
+        <Modifier at="240" angle="-120"/>
+      </Pattern>
+    </Repeat>
+    <Repeat amount="2" offset_x="100">
+      <Pattern bullet="basic" velocity="6" angle="120" a_frequency="10" startup="0" cooldown="29" offset_x="0">
+        <Modifier at="50" angle="-120"/>
+        <Modifier at="100" angle="120"/>
+        <Modifier at="170" angle="-120"/>
+        <Modifier at="240" angle="120"/>
+      </Pattern>
     </Repeat>
 	</Type>
 </PatternsFile>
