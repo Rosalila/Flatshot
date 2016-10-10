@@ -22,22 +22,21 @@
       <stage name="A1"/>
       <stage name="A2"/>
       <stage name="A3"/>
-      <stage name="A4"/>
       <stage name="B1"/>
       <stage name="B2"/>
       <stage name="B3"/>
-      <stage name="B4"/>
-      <stage name="B5"/>
-      <stage name="B6"/>
       <stage name="C1"/>
       <stage name="C2"/>
       <stage name="C3"/>
-      <stage name="C4"/>
+      <stage name="D1"/>
+      <stage name="D2"/>
+      <stage name="D3"/>
+      <stage name="E1"/>
+      <stage name="E2"/>
+      <stage name="E3"/>
       <stage name="F1"/>
       <stage name="F2"/>
       <stage name="F3"/>
-      <stage name="F4"/>
-      <stage name="F5"/>
       <stage name="X1"/>
       <stage name="X2"/>
       <stage name="X3"/>
@@ -45,6 +44,13 @@
       <stage name="X5"/>
       <stage name="X6"/>
       <stage name="X7"/>
+      <stage name="X8"/>
+      <stage name="X9"/>
+      <stage name="X10"/>
+      <stage name="X11"/>
+      <stage name="X12"/>
+      <stage name="X13"/>
+      <stage name="X14"/>
 	</Stages>
   <Arcade>
     <Path name="Easy">

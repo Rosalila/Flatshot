@@ -2,36 +2,36 @@
 	<Type name="A">
 
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="0" cooldown="80">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="0" cooldown="500">
       </Pattern>
     </Repeat>
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="10" cooldown="80" angle="1">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="15" cooldown="500">
       </Pattern>
     </Repeat>
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="20" cooldown="80" angle="2">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="30" cooldown="500">
       </Pattern>
     </Repeat>
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="30" cooldown="80" angle="3">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="45" cooldown="500">
       </Pattern>
     </Repeat>
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="40" cooldown="80" angle="4">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="60" cooldown="500">
       </Pattern>
     </Repeat>
 
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="50" cooldown="80" angle="3">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="75" cooldown="500">
       </Pattern>
     </Repeat>
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="60" cooldown="80" angle="2">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="90" cooldown="500">
       </Pattern>
     </Repeat>
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="13" startup="70" cooldown="80" angle="1">
+      <Pattern bullet="square" undestructable="yes" velocity="4" startup="105" cooldown="500">
       </Pattern>
     </Repeat>
 	</Type>
