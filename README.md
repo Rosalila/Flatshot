@@ -1,26 +1,31 @@
+Flatshot
+========
+
 Flatshot is a free as in freedom shmup with flat and minimalist aesthetic.
 
-#Download links
+#Keywords
 
-[Linux Version 0.3](http://rosalilastudio.com/ftp/flatshot/FlatshotLinux64bits.zip)
+This game is being developed with the following values ordered by importance:
 
-[![](http://flatshot.rosalilastudio.com//content/images/2016/04/linux_download-1.png)](http://rosalilastudio.com/ftp/flatshot/FlatshotLinux64bits.zip)
+1. **Colaborative**: Open contribution system
+2. **Minimalism**: Flat graphics and simple mechanics
+3. **Deep**: Encourages different playstyles
+4. **Imersive**: Every aspect combines with each other: music, sfx, graphics, code, gameplay, story?
 
-[Windows Version 0.3](http://rosalilastudio.com/ftp/flatshot/FlatshotWindows.zip)
+#Features
 
-[![](http://flatshot.rosalilastudio.com//content/images/2016/04/windows_download-1.png)](http://rosalilastudio.com/ftp/flatshot/FlatshotWindows.zip)
+* Keyboard and Gamepad support 
+* Available on Linux, OS X and Windows 
+* Free to play, pay for online features 
+* Free as in freedom (LGPL license) 
+* Continious boss fights 
+* Minimalist flat design 
+* Random generated backgrounds 
+* Engaging soundtrack 
+* Diverse, unique and challenging boss attack patterns 
+* Interactive tutorial and training 
+* Deep and simple core mechanics
 
-#Stay updated
+#Development
 
-* [Website](flatshot.rosalilastudio.com)
-* [Facebook](www.facebook.com/FlatshotGame)
-* [IndieDB](http://www.indiedb.com/games/flatshot)
-* [Youtube](https://www.youtube.com/channel/UC3l-BSOiy8IaHQo6tFca0cQ)
-
-# License
-
-This software is licensed under the [LGPL license](https://www.gnu.org/licenses/lgpl-3.0.en.html).
-
-# Contribute
-
-TODO
+Check out our [wiki](https://github.com/Rosalila/Flatshot/wiki).
