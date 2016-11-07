@@ -8,7 +8,7 @@
 		<char name="Triangle"/>
 	</Chars>
 	<Stages>
-      <stage name="X18"/>
+      <stage name="X20"/>
       <stage name="Training1"/>
       <stage name="Training2"/>
       <stage name="Training3"/>
@@ -52,6 +52,9 @@
       <stage name="X12"/>
       <stage name="X13"/>
       <stage name="X14"/>
+      <stage name="X18"/>
+      <stage name="X19"/>
+      <stage name="X20"/>
 	</Stages>
   <Arcade>
     <Path name="Easy">
