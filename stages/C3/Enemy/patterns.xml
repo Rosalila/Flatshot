@@ -1,37 +1,7 @@
 <PatternsFile>
 	<Type name="A">
-
     <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="0" cooldown="500">
-      </Pattern>
-    </Repeat>
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="15" cooldown="500">
-      </Pattern>
-    </Repeat>
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="30" cooldown="500">
-      </Pattern>
-    </Repeat>
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="45" cooldown="500">
-      </Pattern>
-    </Repeat>
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="60" cooldown="500">
-      </Pattern>
-    </Repeat>
-
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="75" cooldown="500">
-      </Pattern>
-    </Repeat>
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="90" cooldown="500">
-      </Pattern>
-    </Repeat>
-    <Repeat amount="72" angle="5">
-      <Pattern bullet="square" undestructable="yes" velocity="4" startup="105" cooldown="500">
+      <Pattern bullet="square" undestructable="yes" velocity="3" startup="0" cooldown="60">
       </Pattern>
     </Repeat>
 	</Type>
