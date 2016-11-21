@@ -4,7 +4,7 @@
       <Modifier at="105" velocity="5" br_change="1" angle="-15" random_angle="30" aim_player="no"/>
     </Pattern>
     <Repeat amount="18" angle="20">
-      <Pattern bullet="square" angle_change="1" ac_frequency="5" velocity="3" startup="0" cooldown="30"/>
+      <Pattern bullet="square" undestructable="yes" angle_change="1" ac_frequency="5" velocity="3" startup="0" cooldown="30"/>
     </Repeat>
 	</Type>
 </PatternsFile>

@@ -1,6 +1,6 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="square" aim_player="yes" velocity="3" startup="0" cooldown="40"/>
+    <Pattern bullet="square" undestructable="yes" aim_player="yes" velocity="3" startup="0" cooldown="40"/>
     <Pattern bullet="basic" angle_change="1" aim_player="yes" random_angle="45" angle="-75" velocity="7" startup="0" cooldown="50"/>
     <Pattern bullet="basic" angle_change="-1" aim_player="yes" random_angle="-45" angle="75" velocity="7" startup="0" cooldown="50"/>
 	</Type>
