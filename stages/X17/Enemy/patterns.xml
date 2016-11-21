@@ -1,7 +1,7 @@
 <PatternsFile>
 	<Type name="A">
-    <Repeat amount="36" angle="10">
-      <Pattern bullet="basic" velocity="12" cooldown="7"/>
+    <Repeat amount="24" angle="15">
+      <Pattern bullet="square" velocity="8" cooldown="30"/>
     </Repeat>
 	</Type>
 </PatternsFile>

@@ -1,26 +1,7 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="basic" velocity="0" acceleration="1" a_frequency="3" startup="0" cooldown="15" angle="160">
-      <Modifier at="40" aim_player="yes" angle="2"/>
-    </Pattern>
-    <Pattern bullet="basic" velocity="0" acceleration="1" a_frequency="3" startup="0" cooldown="15" angle="155">
-      <Modifier at="40" aim_player="yes" angle="0"/>
-    </Pattern>
-    <Pattern bullet="basic" velocity="0" acceleration="1" a_frequency="3" startup="0" cooldown="15" angle="150">
-      <Modifier at="40" aim_player="yes" angle="-2"/>
-    </Pattern>
-
-    <Pattern bullet="basic" velocity="0" acceleration="1" a_frequency="3" startup="0" cooldown="15" angle="-160">
-      <Modifier at="40" aim_player="yes" angle="-2"/>
-    </Pattern>
-    <Pattern bullet="basic" velocity="0" acceleration="1" a_frequency="3" startup="0" cooldown="15" angle="-155">
-      <Modifier at="40" aim_player="yes" angle="0"/>
-    </Pattern>
-    <Pattern bullet="basic" velocity="0" acceleration="1" a_frequency="3" startup="0" cooldown="15" angle="-150">
-      <Modifier at="40" aim_player="yes" angle="2"/>
-    </Pattern>
-    <Repeat amount="70" startup="2">
-      <Pattern bullet="square" undestructable="yes" velocity="20" startup="0" cooldown="170" aim_player="yes"/>
+    <Repeat amount="50" startup="2">
+      <Pattern bullet="square" undestructable="yes" velocity="20" startup="0" cooldown="300" aim_player="yes"/>
     </Repeat>
 	</Type>
 </PatternsFile>

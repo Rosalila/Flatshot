@@ -8,6 +8,7 @@
 		<char name="Triangle"/>
 	</Chars>
 	<Stages>
+      <stage name="X15"/>
       <stage name="Training1"/>
       <stage name="Training2"/>
       <stage name="Training3"/>
