@@ -1,16 +1,7 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="large" velocity="0" angle_change="3" acceleration="1" a_frequency="2" startup="0" aim_player="yes" angle="-90"/>
-    <Pattern bullet="large" velocity="0" angle_change="-3" acceleration="1" a_frequency="2" startup="0" aim_player="yes" angle="90"/>
-
-    <Pattern bullet="large" velocity="0" angle_change="3" acceleration="1" a_frequency="2" startup="0" aim_player="yes" angle="0"/>
-    <Pattern bullet="large" velocity="0" angle_change="-3" acceleration="1" a_frequency="2" startup="0" aim_player="yes" angle="180"/>
-
-    <Pattern bullet="large" velocity="0" angle_change="-3" acceleration="1" a_frequency="2" startup="0" aim_player="yes" angle="0"/>
-    <Pattern bullet="large" velocity="0" angle_change="3" acceleration="1" a_frequency="2" startup="0" aim_player="yes" angle="180"/>
-
-    <Pattern bullet="square" undestructable="yes" velocity="5" startup="0" cooldown="15" aim_player="yes"/>
-
-    <Pattern bullet="basic" velocity="5" startup="0" cooldown="5" aim_player="yes" angle="-20" random_angle="40"/>
+    <Repeat amount="50" startup="2">
+      <Pattern bullet="square" undestructable="yes" velocity="20" startup="0" cooldown="300" aim_player="yes"/>
+    </Repeat>
 	</Type>
 </PatternsFile>

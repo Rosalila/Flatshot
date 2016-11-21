@@ -1,9 +1,12 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="square" undestructable="yes" velocity="4" br_change="6" startup="0" cooldown="479" homing="yes"/>
-    <Pattern bullet="basic" random_angle="360" velocity="3" startup="0" cooldown="29"/>
-    <Repeat amount="39">
-      <Pattern bullet="basic" random_angle="360" velocity="3" startup="0" cooldown="29"/>
-    </Repeat>
+    <Pattern bullet="large" br_change="1" aim_player="yes" velocity="7" startup="0" cooldown="40"/>
+    <Pattern bullet="large" br_change="-1" aim_player="yes" velocity="7" startup="0" cooldown="40"/>
+
+    <Pattern bullet="large" br_change="1" aim_player="yes" velocity="7" startup="0" cooldown="40" angle="20" bullet_rotation="90"/>
+    <Pattern bullet="large" br_change="-1" aim_player="yes" velocity="7" startup="0" cooldown="40" angle="20" bullet_rotation="90"/>
+
+    <Pattern bullet="large" br_change="1" aim_player="yes" velocity="7" startup="0" cooldown="40" angle="-20" bullet_rotation="90"/>
+    <Pattern bullet="large" br_change="-1" aim_player="yes" velocity="7" startup="0" cooldown="40" angle="-20" bullet_rotation="90"/>
 	</Type>
 </PatternsFile>

@@ -1,6 +1,6 @@
 <MainFile>
 	<LifeBar color_r="192" color_g="57" color_b="43" rect_offset_x="60" rect_offset_y="10" rect_width="352" rect_height="40" y="707"/>
-	<Attributes velocity="0" animation_velocity="4" hp="500" initial_x="1600" initial_y="400"/>
+	<Attributes velocity="0" animation_velocity="4" hp="400" initial_x="1600" initial_y="400"/>
 	<!--<Hitbox x="-122" y="-43" width="243" height="87" angle="0"/>-->
   <Hitboxes>
     <Hitbox x="-100" y="-43" width="200" height="87" angle="0"/>
@@ -16,22 +16,22 @@
   </Hitboxes>
   <Sounds hit="../../../shared_files/Enemy/sounds/hit.wav"/>
 	<Sprites orientation="idle">
-		<Sprite path="../../../shared_files/Enemy/sprites/character/2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character/5.png"/>
 	</Sprites>
 	<Sprites orientation="up">
-		<Sprite path="../../../shared_files/Enemy/sprites/character/2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character/5.png"/>
 	</Sprites>
 	<Sprites orientation="down">
-		<Sprite path="../../../shared_files/Enemy/sprites/character/2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character/5.png"/>
 	</Sprites>
 	<Sprites orientation="left">
-		<Sprite path="../../../shared_files/Enemy/sprites/character/2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character/5.png"/>
 	</Sprites>
 	<Sprites orientation="right">
-		<Sprite path="../../../shared_files/Enemy/sprites/character/2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character/5.png"/>
 	</Sprites>
 	<Sprites orientation="destroyed">
-		<Sprite path="../../../shared_files/Enemy/sprites/character/2.png"/>
+		<Sprite path="../../../shared_files/Enemy/sprites/character/5.png"/>
 	</Sprites>
   <FlatShadow image_path="../../../shared_files/Enemy/sprites/shadow.png">
     <CaseLeft>

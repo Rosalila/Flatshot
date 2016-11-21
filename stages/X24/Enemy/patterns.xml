@@ -1,6 +1,9 @@
 <PatternsFile>
 	<Type name="A">
-    <Pattern bullet="large" random_angle="40" angle="140" angle_change="1" ac_frequency="5" velocity="4" startup="0" cooldown="40"/>
-    <Pattern bullet="large" random_angle="-40" angle="220" angle_change="-1" ac_frequency="5" velocity="4" startup="0" cooldown="40"/>
+    <Pattern bullet="square" undestructable="yes" velocity="4" br_change="6" startup="0" cooldown="479" homing="yes"/>
+    <Pattern bullet="basic" random_angle="360" velocity="3" startup="0" cooldown="29"/>
+    <Repeat amount="39">
+      <Pattern bullet="basic" random_angle="360" velocity="3" startup="0" cooldown="29"/>
+    </Repeat>
 	</Type>
 </PatternsFile>
