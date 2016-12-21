@@ -10,7 +10,7 @@ This game is being developed with the following values ordered by importance:
 1. **Colaborative**: Open contribution system
 2. **Minimalism**: Flat graphics and simple mechanics
 3. **Convergent variation**: Encourages different playstyles
-4. **Imersive**: Every aspect combines with each other: music, sfx, graphics, code, gameplay, story?
+4. **Immersive**: Every aspect combines with each other: music, sfx, graphics, code, gameplay, story?
 
 #Features
 
