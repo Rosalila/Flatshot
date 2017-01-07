@@ -14,7 +14,7 @@
     <Hitbox x="-20" y="-43" width="40" height="87" angle="0"/>
     <Hitbox x="-10" y="-43" width="20" height="87" angle="0"/>
   </Hitboxes>
-  <Sounds hit="../../../shared_files/Enemy/sounds/hit.wav"/>
+  <Sounds hit="../../../shared_files/Enemy/sounds/hit.ogg"/>
 	<Sprites orientation="idle">
 		<Sprite path="../../../shared_files/Enemy/sprites/character/3.png"/>
 	</Sprites>
