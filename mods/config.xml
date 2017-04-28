@@ -1,0 +1,9 @@
+<ConfigFile>
+	<Chars>
+		<char name="Triangle"/>
+	</Chars>
+	<Stages>
+      <stage name="Mod1"/>
+      <stage name="Mod2"/>
+	</Stages>
+</ConfigFile>
