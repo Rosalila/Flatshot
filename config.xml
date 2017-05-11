@@ -1,7 +1,6 @@
 <ConfigFile>
-	<User name=""/>
-	<Resolution x="1366" y="768"/>
-	<ScreenSize x="1366" y="768"/>
+	<Resolution x="1280" y="720"/>
+	<ScreenSize x="1280" y="720"/>
 	<Fullscreen enabled="no"/>
 	<Font red="255" green="255" blue="255" size="30"/>
 	<Chars>
@@ -68,47 +67,6 @@
       <stage name="Z4"/>
       <stage name="Z5"/>
 	</Stages>
-  <Arcade>
-    <Path name="Easy">
-      <stage name="Stagea"/>
-      <stage name="Stageb"/>
-      <stage name="Stagec"/>
-      <stage name="Staged"/>
-      <stage name="Stagee"/>
-      <stage name="Stagef"/>
-      <stage name="Stageg"/>
-      <stage name="Stageh"/>
-      <stage name="StageA"/>
-      <stage name="StageB"/>
-      <stage name="StageC"/>
-      <stage name="StageD"/>
-      <stage name="StageE"/>
-      <stage name="StageX"/>
-      <stage name="StageY"/>
-      <stage name="StageZ"/>
-      <stage name="Stage6"/>
-<!--
-      <stage name="Stage2"/>
-      <stage name="Stage3"/>
-      <stage name="Stage4"/>
-      <stage name="Stage5"/>
-      <stage name="Stage6"/>
-      <stage name="Stage7"/>
--->
-    </Path>
-    <Path name="Normal">
-      <stage name="Stage1"/>
-      <stage name="Stage2"/>
-      <stage name="Stage3"/>
-      <stage name="Stage4"/>
-      <stage name="Stage5"/>
-      <stage name="Stage6"/>
-    </Path>
-  </Arcade>
-	<YouLose x="0" y="0" animation_velocity="5" sound="misc/lose.wav">
-		<sprite path="misc/you lose/1.png"/>
-	</YouLose>
-	<YouWin x="0" y="0" animation_velocity="5" sound="misc/win.wav">
-		<sprite path="misc/you win/1.png"/>
-	</YouWin>
+	<YouLose x="0" y="0" animation_velocity="5" sound="misc/lose.wav"/>
+	<YouWin x="0" y="0" animation_velocity="5" sound="misc/win.wav"/>
 </ConfigFile>
