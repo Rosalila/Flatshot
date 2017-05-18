@@ -35,22 +35,22 @@
 	</Sprites>
   <FlatShadow image_path="../../../shared_files/Enemy/sprites/shadow.png">
     <CaseLeft>
-      <Point x="0" y="0"/>
-      <Point x="0" y="0"/>
+      <Point x="6" y="20"/>
+      <Point x="-7" y="-20"/>
       <Inbetween>
         <Point x="243" y="0"/>
       </Inbetween>
     </CaseLeft>
     <CaseRight>
-      <Point x="0" y="0"/>
-      <Point x="0" y="0"/>
+      <Point x="6" y="-20"/>
+      <Point x="-6" y="20"/>
       <Inbetween>
-        <Point x="0" y="-87"/>
+        <Point x="0" y="-88"/>
       </Inbetween>
     </CaseRight>
     <CaseTop>
-      <Point x="0" y="0"/>
-      <Point x="0" y="0"/>
+      <Point x="6" y="20"/>
+      <Point x="-6" y="20"/>
     </CaseTop>
   </FlatShadow>
 </MainFile>
