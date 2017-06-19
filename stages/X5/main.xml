@@ -1,5 +1,5 @@
 <StageFile>
-	<Bounds x1="0" y1="0" x2="1366" y2="768"/>
+	<Bounds x1="0" y1="0" x2="1280" y2="720"/>
 	<Misc velocity="5"/>
 	<BackLayer randomize_color="yes"  depth_effect_x="0" depth_effect_y="0" align_x="0" align_y="0" separation_x="0">
 		<frame type="image" image_path="../../shared_files/images/Stage1Background.png"/>
