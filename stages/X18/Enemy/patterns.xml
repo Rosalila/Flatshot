@@ -10,66 +10,66 @@
       <Modifier at="70" angle="0" aim_player="yes"/>
       <Modifier at="85" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes">
       <Modifier at="10" velocity="13"/>
       <Modifier at="60" velocity="0"/>
       <Modifier at="70" angle="0" aim_player="yes"/>
       <Modifier at="80" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes">
       <Modifier at="15" velocity="13"/>
       <Modifier at="65" velocity="0"/>
       <Modifier at="70" angle="0" aim_player="yes"/>
       <Modifier at="75" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes">
       <Modifier at="20" velocity="13"/>
       <Modifier at="70" angle="0" aim_player="yes"/>
     </Pattern>
 <!-- -->
 
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="30">
       <Modifier at="5" velocity="13"/>
       <Modifier at="55" velocity="0"/>
       <Modifier at="70" angle="30" aim_player="yes"/>
       <Modifier at="85" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="30">
       <Modifier at="10" velocity="13"/>
       <Modifier at="60" velocity="0"/>
       <Modifier at="70" angle="30" aim_player="yes"/>
       <Modifier at="80" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="30">
       <Modifier at="15" velocity="13"/>
       <Modifier at="65" velocity="0"/>
       <Modifier at="70" angle="30" aim_player="yes"/>
       <Modifier at="75" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="30">
       <Modifier at="20" velocity="13"/>
       <Modifier at="70" angle="30" aim_player="yes"/>
     </Pattern>
 
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="-30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="-30">
       <Modifier at="5" velocity="13"/>
       <Modifier at="55" velocity="0"/>
       <Modifier at="70" angle="-30" aim_player="yes"/>
       <Modifier at="85" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="-30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="-30">
       <Modifier at="10" velocity="13"/>
       <Modifier at="60" velocity="0"/>
       <Modifier at="70" angle="-30" aim_player="yes"/>
       <Modifier at="80" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="-30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="-30">
       <Modifier at="15" velocity="13"/>
       <Modifier at="65" velocity="0"/>
       <Modifier at="70" angle="-30" aim_player="yes"/>
       <Modifier at="75" velocity="13"/>
     </Pattern>
-    <Pattern bullet="basic" velocity="0" cooldown="29" aim_player="yes" angle="-30">
+    <Pattern bullet="basic mute" velocity="0" cooldown="29" aim_player="yes" angle="-30">
       <Modifier at="20" velocity="13"/>
       <Modifier at="70" angle="-30" aim_player="yes"/>
     </Pattern>

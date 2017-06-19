@@ -5,7 +5,7 @@
       <Modifier at="80" homing="yes" angle="90"/>
       <Modifier at="200" homing="no"/>
     </Pattern>
-    <Pattern bullet="large" velocity="8" homing="no" aim_player="yes" startup="0" cooldown="5">
+    <Pattern bullet="large mute" velocity="8" homing="no" aim_player="yes" startup="0" cooldown="5">
       <Modifier at="80" homing="yes" angle="-90"/>
       <Modifier at="200" homing="no"/>
     </Pattern>
