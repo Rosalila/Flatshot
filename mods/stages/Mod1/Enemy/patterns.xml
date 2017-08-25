@@ -1,10 +1,6 @@
 <PatternsFile>
 	<Type name="A">
-    <Repeat angle="10" amount="36">
-      <Pattern bullet="basic" bullet_rotation="90" velocity="5" startup="0" cooldown="300"/>
-    </Repeat>
-    <Repeat angle="10" amount="36">
-      <Pattern bullet="basic" bullet_rotation="90" velocity="5" angle="5" startup="150" cooldown="300"/>
-    </Repeat>
+    <Pattern bullet="large" max_velocity="15" velocity="-20" acceleration="1" angle="0" aim_player="yes" cooldown="20" offset_x="100" duration="1600">
+    </Pattern>
 	</Type>
 </PatternsFile>

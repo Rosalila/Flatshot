@@ -14,7 +14,7 @@
     <Hitbox x="-20" y="-43" width="40" height="87" angle="0"/>
     <Hitbox x="-10" y="-43" width="20" height="87" angle="0"/>
   </Hitboxes>
-  <Sounds hit="hit.ogg"/>
+  <Sounds hit="sounds/hit.ogg"/>
 	<Sprites orientation="idle">
 		<Sprite path="character/2.png"/>
 	</Sprites>
@@ -35,22 +35,22 @@
 	</Sprites>
   <FlatShadow image_path="shadow.png">
     <CaseLeft>
-      <Point x="0" y="0"/>
-      <Point x="0" y="0"/>
+      <Point x="6" y="20"/>
+      <Point x="-7" y="-20"/>
       <Inbetween>
         <Point x="243" y="0"/>
       </Inbetween>
     </CaseLeft>
     <CaseRight>
-      <Point x="0" y="0"/>
-      <Point x="0" y="0"/>
+      <Point x="6" y="-20"/>
+      <Point x="-6" y="20"/>
       <Inbetween>
-        <Point x="0" y="-87"/>
+        <Point x="0" y="-88"/>
       </Inbetween>
     </CaseRight>
     <CaseTop>
-      <Point x="0" y="0"/>
-      <Point x="0" y="0"/>
+      <Point x="6" y="20"/>
+      <Point x="-6" y="20"/>
     </CaseTop>
   </FlatShadow>
 </MainFile>
