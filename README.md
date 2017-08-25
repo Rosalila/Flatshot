@@ -3,7 +3,7 @@ Flatshot
 
 Flatshot is a free as in freedom shmup with flat and minimalist aesthetic.
 
-#Keywords
+# Keywords
 
 This game is being developed with the following values ordered by importance:
 
@@ -12,7 +12,7 @@ This game is being developed with the following values ordered by importance:
 3. **Convergent variation**: Encourages different playstyles
 4. **Immersive**: Every aspect combines with each other: music, sfx, graphics, code, gameplay, story?
 
-#Features
+# Features
 
 * Keyboard and Gamepad support 
 * Available on Linux, OS X and Windows 
@@ -26,6 +26,6 @@ This game is being developed with the following values ordered by importance:
 * Interactive tutorial and training 
 * Deep and simple core mechanics
 
-#Development
+# Development
 
 Check out our [wiki](https://github.com/Rosalila/Flatshot/wiki).
